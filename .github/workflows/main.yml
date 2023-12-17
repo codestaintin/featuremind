@@ -1,0 +1,14 @@
+name: Cypress tests
+on: [push]
+jobs:
+  cypress-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: run cypress tests
+        uses: cypress-io/github-action@v4
+        with:
+          command: yarn cypress run
+          browser: chrome
