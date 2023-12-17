@@ -1,0 +1,13 @@
+{
+  "name": "featuremind-assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn cypress run --headed"
+  },
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "cypress-real-events": "^1.11.0"
+  }
+}
