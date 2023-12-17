@@ -1,4 +1,4 @@
-**This project uses Cypress for end-to-end testing for a FeatureMind.**
+**This project uses Cypress for end-to-end testing for a FeatureMind.** [![End-to-end tests](https://github.com/codestaintin/featuremindy/actions/workflows/main.yml/badge.svg)](https://github.com/codestaintin/featuremindy/actions/workflows/main.yml)
 
 
 **To run the tests, follow these steps**:
