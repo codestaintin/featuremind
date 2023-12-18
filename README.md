@@ -15,4 +15,7 @@ https://github.com/codestaintin/featuremindy.git
 
 - yarn run test
 
+**To view test reports**
+- Navigate to `cypress/reports/html/index.html`
+
 

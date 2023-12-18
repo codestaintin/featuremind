@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn cypress run --headed"
+    "test": "cypress run --headed"
   },
-  "dependencies": {
+  "devDependencies": {
     "cypress": "^13.6.1",
-    "cypress-real-events": "^1.11.0"
+    "cypress-real-events": "^1.11.0",
+    "cypress-mochawesome-reporter": "^3.7.0"
   }
 }

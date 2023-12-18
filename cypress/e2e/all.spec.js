@@ -1,3 +1,2 @@
-import './cart.spec';
+import './navigation.spec';
 import './product.spec';
-import './home.spec';

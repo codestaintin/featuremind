@@ -1,0 +1,1 @@
+export const getLink = (link) => cy.get(`a[href="${link}"]`);
